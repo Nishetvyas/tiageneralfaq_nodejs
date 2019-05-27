@@ -9,7 +9,7 @@ let express = require('express'),
   app = express();
 let alexaVerifier = require('alexa-verifier');
 
-
+// lol
 
 const invocationName = "tiafaq";
 
