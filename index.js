@@ -118,7 +118,7 @@ const Client_rfq_Handler =  {
 const HelloWorldIntentHandler = {
     canHandle(handlerInput) {
         return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-            && handlerInput.requestEnvelope.request.intent.name === 'HelloWorldIntent';
+            && handlerInput.requestEnvelope.request.intent.name === 'welcomeintent';
     },
     handle(handlerInput) {
         const speechText = 'Hello Welcoem to fero.ai!';
